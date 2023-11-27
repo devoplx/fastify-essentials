@@ -8,7 +8,7 @@ Fastify Essentials Long Term Support (LTS) is provided according to the schedule
 in this document:
 
 1. **Major** releases, "X" release of [semantic versioning][semver] X.Y.Z release
-  versions, are supported untill the next major release version and or a secruity 
+  versions, are supported untill the next major release version or a secruity 
 	updates or when [Fastify](https://github.com/fastify/fastify) releases a new major 
 	version. The release date of any specific Fastify Essentials version can be found at
   [Fastify Essentials Releases](https://github.com/devoplx/fastify-essentials/releases). 
