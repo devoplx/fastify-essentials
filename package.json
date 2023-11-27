@@ -16,7 +16,8 @@
         "eslint": "npx eslint ./src/**",
         "prettier": "prettier --write .",
         "github:setup": "git config core.hooksPath .git-hooks ",
-        "release": "release-it"
+        "release": "release-it",
+				"dev:docs": "cd docs && npm run start"
     },
     "tsup": {
         "dts": true,
