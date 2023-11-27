@@ -6,6 +6,9 @@
     "module": "dist/index.mjs",
     "types": "dist/index.d.ts",
     "private": false,
+		"publishConfig": {
+			"access": "public"
+		},
     "scripts": {
         "test": "test",
         "dev": "npx nodemon",
