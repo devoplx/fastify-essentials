@@ -7,13 +7,15 @@ title: Long Term Support
 Fastify Essentials Long Term Support (LTS) is provided according to the schedule laid out
 in this document:
 
+:::warning
+Whenever we push a fix for a secruity update, we automatically update to the next **minor** version.
+:::
+
 1. **Major** releases, "X" release of [semantic versioning][semver] X.Y.Z release
-  versions, are supported untill the next major release version or a secruity 
+  versions, are supported untill the next major release version.
 	updates or when [Fastify](https://github.com/fastify/fastify) releases a new major 
-	version. The release date of any specific Fastify Essentials version can be found at
-  [Fastify Essentials Releases](https://github.com/devoplx/fastify-essentials/releases). 
-	The release date of any specific Fastify version can be found at
-  [Fastify Releases](https://github.com/fastify/fastify/release).
+	version. The release date of any specific Fastify Essentials version or Fastify version can be found at
+  [Fastify Essentials Releases](https://github.com/devoplx/fastify-essentials/releases) | [Fastify Releases](https://github.com/fastify/fastify/release).
 	All Major releases are tested, and performs well with the current fastify version.
 
 	:::note
@@ -23,21 +25,19 @@ in this document:
 	:::
 
 2. **Minor** releases, "Y" release of [semantic versioning][semver] X.Y.Z release
-	versions, are only supported untill the next major release or minor version or secruity updates.
-	The release date of any specific Fastify Essentials version can be found at
-	[Fastify Essentials Releases](https://github.com/devoplx/fastify-essentials/releases). 
+	versions, are only supported untill the next major release or minor version.
+	All minor releases are tested, and performs well with the current fastify version.
 
 	:::danger
-	Any previous minor release would not be supported or maintained, including any secruity updates. 
+	Any previous minor release would not be supported or maintained, including any secruity issues.
 	:::
 
 3. **Patch** releases, "Z" release of [semantic versioning][semver] X.Y.Z release
 	versions, are only supported untill the next patch, minor, or major release.
-	The release date of any specific Fastify Essentials version can be found at
-	[Fastify Essentials Releases](https://github.com/devoplx/fastify-essentials/releases). 
+
 
 	:::info
-	patchs, do not include new changes or secruity updates, so it is safe to not upgrade right away. 
+	patchs, do not include new changes or secruity updates, so it is safe to ignore them. 
 	:::
 
 A "month" is defined as 30 consecutive days.
