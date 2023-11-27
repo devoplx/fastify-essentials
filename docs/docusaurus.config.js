@@ -7,7 +7,7 @@ const config = {
   tagline: 'Fastify Essentials: Streamlining Success, Elevating Development',
   favicon: 'img/favicon.ico',
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://devoplx.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/fastify-essentials/',
@@ -69,7 +69,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -88,7 +88,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Docs',
                 to: '/docs/intro',
               },
             ],
