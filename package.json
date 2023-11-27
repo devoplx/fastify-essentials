@@ -17,7 +17,8 @@
         "prettier": "prettier --write .",
         "github:setup": "git config core.hooksPath .git-hooks ",
         "release": "release-it",
-				"dev:docs": "cd docs && npm run start"
+				"dev:docs": "cd docs && npm run start",
+				"start:docs": "cd docs && npm run serve"
     },
     "tsup": {
         "dts": true,
