@@ -37,14 +37,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/devoplx/fastify-essentials',
+            'https://github.com/devoplx/fastify-essentials/tree/master/docs/docs',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/devoplx/fastify-essentials',
+            'https://github.com/devoplx/fastify-essentials/tree/master/docs/blog',
         },
         theme: {
           customCss: './src/css/custom.css',
