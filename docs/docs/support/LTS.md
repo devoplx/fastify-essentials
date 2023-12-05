@@ -8,7 +8,7 @@ Fastify Essentials Long Term Support (LTS) is provided according to the schedule
 in this document:
 
 :::warning
-Whenever we push a fix for a secruity update, we automatically update to the next **minor** version.
+When a security fix is release, we release i
 :::
 
 1. **Major** releases, "X" release of [semantic versioning][semver] X.Y.Z release
